@@ -1,0 +1,11 @@
+.rail{
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    top: 0px;
+    opacity: 0.5;
+
+}

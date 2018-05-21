@@ -1,0 +1,27 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+ </head>
+ 
+<nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Secunderabad</a>
+          <ul>
+          <li class="fas fa-train"></li>
+          </ul>
+          </div>
+        <ul class="nav navbar-nav">
+          <li><a routerLink="/" ><span class="glyphicon glyphicon-home"></span>Home</a></li>
+      <li><a routerLink="/booking" routerLinkActive ="active">Booking</a></li>
+      <li><a routerLink="/aboutus" routerLinkActive ="active">Aboutus</a></li>
+      <li><a routerLink="/pnr" routerLinkActive ="active">PNR STATUS</a></li>
+         
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a routerLink="/singup" routerLinkActive="active"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+          </ul>
+      </div>
+    </nav>
+<router-outlet></router-outlet>
+

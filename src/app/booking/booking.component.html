@@ -1,0 +1,173 @@
+
+<div class="container-fluid">
+    <div class="details">
+<h3>Enter your details</h3>
+</div>
+</div>
+
+<div class="form-group">
+        <label for="trn">Candidate NAME:</label>
+        <input type="text" class="form-control" id="trn" [(ngModel)]="candidatename">
+      </div>
+     
+
+
+        <div class="form-group">
+                <label for="trn">TRAIN NAME:</label>
+                <input type="text" class="form-control" id="trn" [(ngModel)]="trainname">
+              </div>
+             
+      
+<button class="btn btn-primary"  (click)= "sendtodb()">Submit</button>
+
+
+
+<p-growl [value]="msgs"></p-growl>
+
+<h3 class="first">Train TimeTable </h3>
+<p-accordion>
+    <p-accordionTab header="Padmavathi Express" [selected]="false">
+        <table>
+            <tr>
+              <th>S.NO</th>
+              <th>Station Names</th>
+              <th>Train Arrival</th>
+              <th>Train Departure</th>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>Nampally</td>
+              <td>7:45 PM</td>
+              <td>8:20 PM</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Vikarabad</td>
+              <td>10:30 PM</td>
+              <td>10:45 PM</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Guntur</td>
+              <td>12:30 PM</td>
+              <td>12:35 PM</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>Sholapur</td>
+              <td>3:30 AM</td>
+              <td>4:00 AM</td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>Pune</td>
+              <td>9:00 Am</td>
+              <td>9:00 Am</td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td>Bijapur</td>
+              <td>11:00 AM</td>
+              <td>6:00 PM</td>
+            </tr>
+          </table>
+    </p-accordionTab>
+    <p-accordionTab header="Mumbai Express">
+        <table>
+            <tr>
+              <th>S.NO</th>
+              <th>Station Names</th>
+              <th>Train Arrival</th>
+              <th>Train Departure</th>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>Nampally</td>
+              <td>7:45 PM</td>
+              <td>8:20 PM</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Vikarabad</td>
+              <td>10:30 PM</td>
+              <td>10:45 PM</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Guntur</td>
+              <td>12:30 PM</td>
+              <td>12:35 PM</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>Sholapur</td>
+              <td>3:30 AM</td>
+              <td>4:00 AM</td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>Pune</td>
+              <td>9:00 Am</td>
+              <td>9:00 Am</td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td>Bijapur</td>
+              <td>11:00 AM</td>
+              <td>6:00 PM</td>
+            </tr>
+          </table>
+    </p-accordionTab>
+    <p-accordionTab header="Bijapur Passenger">
+            <table>
+                    <tr>
+                      <th>S.NO</th>
+                      <th>Station Names</th>
+                      <th>Train Arrival</th>
+                      <th>Train Departure</th>
+                    </tr>
+                    <tr>
+                      <td>1</td>
+                      <td>Nampally</td>
+                      <td>7:45 PM</td>
+                      <td>8:20 PM</td>
+                    </tr>
+                    <tr>
+                      <td>2</td>
+                      <td>Vikarabad</td>
+                      <td>10:30 PM</td>
+                      <td>10:45 PM</td>
+                    </tr>
+                    <tr>
+                      <td>3</td>
+                      <td>Guntur</td>
+                      <td>12:30 PM </td>
+                      <td>12:35 PM</td>
+                    </tr>
+                    <tr>
+                      <td>4</td>
+                      <td>Sholapur</td>
+                      <td>3:30 AM</td>
+                      <td>4:00 AM</td>
+                    </tr>
+                    <tr>
+                      <td>5</td>
+                      <td>Pune</td>
+                      <td>9:00 Am</td>
+                      <td>9:00 Am</td>
+                    </tr>
+                    <tr>
+                      <td>6</td>
+                      <td>Bijapur</td>
+                      <td>11:00 AM</td>
+                      <td>6:00 PM</td>
+                    </tr>
+                  </table>
+    </p-accordionTab>
+</p-accordion>
+
+
+  
+            
+
+
