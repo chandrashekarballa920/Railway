@@ -21,6 +21,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {PasswordModule} from 'primeng/password';
 import {DataViewModule} from 'primeng/dataview';
 import {GMapModule} from 'primeng/gmap';
+import { Pipe } from '@angular/core';
 
 @NgModule({
   declarations: [
