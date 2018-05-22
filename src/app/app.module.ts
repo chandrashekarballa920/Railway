@@ -22,6 +22,7 @@ import {PasswordModule} from 'primeng/password';
 import {DataViewModule} from 'primeng/dataview';
 import {GMapModule} from 'primeng/gmap';
 import { Pipe } from '@angular/core';
+import { MyPipe } from './time.pipe';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { Pipe } from '@angular/core';
     PnrComponent,
     TimingComponent,
     SingupComponent,
-    FooterComponent
+    FooterComponent,
+    MyPipe
   ],
   imports: [
     BrowserModule, BrowserAnimationsModule , FormsModule, HttpModule,
